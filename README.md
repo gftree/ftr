@@ -1,2 +1,2 @@
 
-https://gftree.github.io
+gftree.github.io/wc_toc.htm
