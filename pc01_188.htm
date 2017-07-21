@@ -4,9 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Tree</title>
 <link href="lp_font_optima.css" rel="stylesheet" type="text/css" />
-<link href="lp_text_double.css" rel="stylesheet" type="text/css" />
-<link href="lp_tree_double.css" rel="stylesheet" type="text/css" />
-<link href="lp_colorstyle_bluegradient.css" rel="stylesheet" type="text/css" />
+<link href="lp_text_standard.css" rel="stylesheet" type="text/css" />
+<link href="lp_tree_standard.css" rel="stylesheet" type="text/css" />
+<link href="lp_colorstyle_bluelight.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">function toggleDiv(id)
 {var thisDiv = document.getElementById(id);
 if(thisDiv.style.display == 'block'){thisDiv.style.display = 'none';}
@@ -25,9 +25,25 @@ return;}</script>
 <div class="reportBodyWrapper"><div id="source" class="box male"><span class="name"><a href="wc01_181.htm">Nicholas Bartram</a></span>
 </div>
 <div class="connect" id="cnct1"></div>
-<div id="p1" class="box male"><span class="name">William Bartram</span>
+<div id="p1" class="box male"><span class="name"><a href="pc01_187.htm">William Bartram</a></span>
 </div>
-<div id="p2" class="box female"><span class="name">Doreen Sharman</span>
+<div id="p1ShowSC" class="showSC"><a href="#" onclick="javscript:toggleDiv('p1SC')">1 spouse 2 children <img src="downarrow.png"></a></div>
+<div id="p1SC" class="scView"><div class="scList"><ul><li class="female"><b><a href="pc01_170.htm">Doreen Sharman</a></b></li>
+<ul>
+<li class="male"><a href="pc01_188.htm">Nicholas Bartram</a></li>
+<li class="female"><a href="pc01_189.htm">Tina Bartram</a></li>
+</ul>
+</ul></div><a href="#" onclick="javscript:toggleDiv('p1SC')">Close <img src="uparrow.png"></a>
+</div>
+<div id="p2" class="box female"><span class="name"><a href="pc01_170.htm">Doreen Sharman</a></span>
+</div>
+<div id="p2ShowSC" class="showSC"><a href="#" onclick="javscript:toggleDiv('p2SC')">1 spouse 2 children <img src="downarrow.png"></a></div>
+<div id="p2SC" class="scView"><div class="scList"><ul><li class="male"><b><a href="pc01_187.htm">William Bartram</a></b></li>
+<ul>
+<li class="male"><a href="pc01_188.htm">Nicholas Bartram</a></li>
+<li class="female"><a href="pc01_189.htm">Tina Bartram</a></li>
+</ul>
+</ul></div><a href="#" onclick="javscript:toggleDiv('p2SC')">Close <img src="uparrow.png"></a>
 </div>
 <div class="connect" id="cnct2"></div>
 <div class="connect" id="cnct3"></div>
@@ -35,11 +51,29 @@ return;}</script>
 </div>
 <div id="gp2" class="box female">
 </div>
-<div id="gp3" class="box male"><span class="name">Frank Sharman</span><br />
+<div id="gp3" class="box male"><span class="name"><a href="pc01_167.htm">Frank Sharman</a></span><br />
 <span class="date">16 Dec 1908 - 18 Jan 1990</span>
 </div>
-<div id="gp4" class="box female"><span class="name">Helen Harbour</span><br />
+<div id="gp3ShowSC" class="showSC"><a href="#" onclick="javscript:toggleDiv('gp3SC')">1 spouse 3 children <img src="downarrow.png"></a></div>
+<div id="gp3SC" class="scView"><div class="scList"><ul><li class="female"><b><a href="pc01_159.htm">Helen Harbour</a></b></li>
+<ul>
+<li class="male"><a href="pc01_168.htm">Brian Sharman</a></li>
+<li class="female"><a href="pc01_169.htm">Jean Sharman</a></li>
+<li class="female"><a href="pc01_170.htm">Doreen Sharman</a></li>
+</ul>
+</ul></div><a href="#" onclick="javscript:toggleDiv('gp3SC')">Close <img src="uparrow.png"></a>
+</div>
+<div id="gp4" class="box female"><span class="name"><a href="pc01_159.htm">Helen Harbour</a></span><br />
 <span class="date">7 May 1915 - 30 Mar 1987</span>
+</div>
+<div id="gp4ShowSC" class="showSC"><a href="#" onclick="javscript:toggleDiv('gp4SC')">1 spouse 3 children <img src="downarrow.png"></a></div>
+<div id="gp4SC" class="scView"><div class="scList"><ul><li class="male"><b><a href="pc01_167.htm">Frank Sharman</a></b></li>
+<ul>
+<li class="male"><a href="pc01_168.htm">Brian Sharman</a></li>
+<li class="female"><a href="pc01_169.htm">Jean Sharman</a></li>
+<li class="female"><a href="pc01_170.htm">Doreen Sharman</a></li>
+</ul>
+</ul></div><a href="#" onclick="javscript:toggleDiv('gp4SC')">Close <img src="uparrow.png"></a>
 </div>
 <div class="connect" id="cnct4"></div>
 <div class="connect" id="cnct5"></div>
@@ -57,10 +91,10 @@ return;}</script>
 </div>
 <div id="ggp6" class="box female">
 </div>
-<div id="ggp7" class="box male"><span class="name">James Harbour</span><br />
+<div id="ggp7" class="box male"><span class="name"><a href="pc01_079.htm">James Harbour</a></span><br />
 <span class="date">24 Jul 1872 - 28 Jul 1938</span>
 </div>
-<div id="ggp8" class="box female"><span class="name">Margaret Potter</span><br />
+<div id="ggp8" class="box female"><span class="name"><a href="pc01_080.htm">Margaret Potter</a></span><br />
 <span class="date">24 Jul 1873 - 25 Sep 1958</span>
 </div>
 <div id="gggp1" class="box male">
@@ -87,13 +121,13 @@ return;}</script>
 </div>
 <div id="gggp12" class="box female">
 </div>
-<div id="gggp13" class="box male"><span class="name">James Harbour</span>
+<div id="gggp13" class="box male"><span class="name"><a href="pc01_068.htm">James Harbour</a></span>
 </div>
-<div id="gggp14" class="box female"><span class="name">Esther Dye</span>
+<div id="gggp14" class="box female"><span class="name"><a href="pc01_069.htm">Esther Dye</a></span>
 </div>
-<div id="gggp15" class="box male"><span class="name">Henry Potter</span>
+<div id="gggp15" class="box male"><span class="name"><a href="pc01_142.htm">Henry Potter</a></span>
 </div>
-<div id="gggp16" class="box female"><span class="name">Maria Copping</span>
+<div id="gggp16" class="box female"><span class="name"><a href="pc01_143.htm">Maria Copping</a></span>
 </div>
 </div>
 </div>
