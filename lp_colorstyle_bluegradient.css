@@ -1,0 +1,213 @@
+a { color: #6666CC; }
+a:visited { color: #9999CC; }
+a:hover { color: #0000FF; }
+.smallBullet { color: #102a69; }
+
+body
+	{
+	background-color: #def1ff;
+	background-image: url(themeTexture.jpg);
+	color: #043f4e;
+	}
+
+.reportBody
+	{
+	background-image: url(themeGradient.png);
+	background-repeat: repeat-x;
+	background-color: #def1ff;
+
+	}
+
+.reportBody, .footer,
+.tocLinks, .tocIntro, .tocContact, .tocSur,
+.wcHFather, .wcHMother, .wcWFather, .wcWMother,
+.wcHusband, .wcWife, .wcFHusband, .wcMWife,
+.wcHFacts, .wcWFacts,
+.wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold,
+.psFRecord, .psMRecord, .psRecord, .showSC,
+.pageTitle, .pageBody, .fhName, .surRecord, .rrNav, .fhNotes, .wmRelated, .wmPicture img, .srcEntry, .idxBar, .idxSur
+	{
+
+	border-color: #ccc;
+
+	}
+
+.wmPicture img
+	{
+	border-color: #6666CC;
+	}
+
+.psFooter
+	{
+	border-color: white;
+	}
+
+.psFRecord, .psMRecord, .psRecord
+	{
+
+	}
+
+.tocTitle, .pageTitle, .tocLinksTitle, .tocIntroTitle, .tocContactTitle, .wcChildrenTitle
+	{
+	text-shadow: #999 2px 2px 5px;
+
+	}
+
+.tocLinks, .tocIntro, .tocContact, .tocSur
+	{
+
+	}
+
+.idxDate
+	{
+	color: #666;
+	}
+
+.fhNumber
+	{
+	color: #3d707a;
+	}
+
+.fhName
+	{
+	background-color: rgba(189,210,218,0.4);
+	}
+
+.psChildren
+	{
+	background-color: rgba(216,216,216,0.47);
+	}
+
+.psSpouse
+	{
+	color: #555;
+	}
+
+.rrNav
+	{
+	background-image: url(themeTexture.jpg);
+	}
+
+.rrSourceData
+	{
+	border-top-color: #88a;
+	}
+
+.rrName, .rrSpouseName, .rrNameNumber
+	{
+	color: #102a69;
+	}
+
+.rrChildren
+	{
+	background-color: #eef;
+	}
+
+/* web cards */
+
+.wcHFather, .wcWFather
+	{
+	background-color: rgba(224,239,254,0.51);
+	}
+
+.wcHMother, .wcWMother
+	{
+	background-color: rgba(252,183,214,0.28);
+	}
+
+.wcSource
+	{
+	color: #333;
+	}
+
+.wcFactTitle
+	{
+	color: #888;
+	}
+	
+.wcFacts
+	{
+	color: #555;
+	}
+
+.wcHusband, .wcMWife, .wcMChild, .wcMChildBold
+	{
+	background-color: rgba(224,239,254,0.3);
+	}
+	
+.wcWife, .wcFHusband, .wcFChild, .wcFChildBold
+	{
+	background-color: rgba(252,183,214,0.3);
+	}
+
+.wcChild, .wcChildBold
+	{
+	background-color: rgba(200,200,200,0.3);
+	}
+
+.psTitle
+	{
+	color: #444;
+	}
+
+.colFirst, .psSpousesTitle, .psNotesTitle
+	{
+	color: #555;
+	}
+
+.psModDate, .psCreated
+	{
+	color: #444;
+	}
+
+.drBox, .drBoxBold
+	{
+	color: #555;
+	}
+
+.drDates
+	{
+	color: #444;
+	}
+
+.drBoxBold, .drNumber
+	{
+	background-color: #fff;
+	border-color: #353535;
+	}
+
+.drSpouseName
+	{
+	color: #6c6c6c;
+	}
+
+.drNumber
+	{
+	color: #2679e5;
+	}
+	
+/* pedigree chart colors */
+.box
+	{
+	border: 1px double #888;
+ 	background-position: bottom;
+	}
+
+.connect
+	{
+	border-color: gray;
+	}
+	
+.showSC
+	{
+	color: black;
+	background-color: white;
+	border-color: #888;
+	}
+	
+.scView
+	{
+	color: black;
+	background-color: white;
+	border-color: #888;
+	}
