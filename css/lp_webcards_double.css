@@ -1,5 +1,15 @@
 a img {	border-style: none; margin: 0 3px; }
 
+a
+	{
+	text-decoration: none;
+	}
+	
+a:hover
+	{
+	text-decoration: underline;
+	}
+
 .pageBody
 	{
 	margin-right: auto;
@@ -12,7 +22,13 @@ a img {	border-style: none; margin: 0 3px; }
 .reportBody
 	{
 	padding: 10px;
-	border: 1px solid black;
+	border: 3px double;
+	margin-bottom: 0.5em;
+	
+	-moz-border-radius: 4px;
+       -webkit-border-radius: 4px;
+       -khtml-border-radius: 4px;
+    border-radius: 4px;
 	}
 	
 .pageTitle
@@ -39,16 +55,15 @@ a img {	border-style: none; margin: 0 3px; }
 	{
 	min-height: 2.5em;
 	width: 47%;
-	margin-bottom: .4em;
+	margin-bottom: 2px;
 	padding: 3px;
 	}
 
 .wcHFather, .wcHMother, .wcWFather, .wcWMother,
 .wcHusband, .wcWife, .wcFHusband, .wcMWife,
-.wcHFacts, .wcWFacts,
 .wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold
 	{
-	border: 1px solid black;
+	border: 1px solid;
 	}
 
 .wcHFather, .wcHMother, .wcWFather, .wcWMother,
@@ -61,62 +76,24 @@ a img {	border-style: none; margin: 0 3px; }
     border-radius: 3px;
 	}
 
-.wcHFather, .wcHMother, .wcWFather, .wcWMother,
-.wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold
-	{
-	margin-top: 3px;
-	}
-
-.wcParentDate,
-.wcChildDate, .wcChildStatus
-	{
-	font-size: 0.8em;
-	font-weight: normal;
-	}
-
-.wcParentDate
+.wcParentDate, .wcMChild, .wcFChild, .wcChild
 	{
 	display: block;
 	}
-
-
-
-
-.wcChildDate, .wcChildStatus
-	{
-	/*****
-	To show dates and status on multiple lines change the
-	display from span to block
-
-	display: block;
-	-----------------
-	To show dates and status on a single line use margin-left to
-	add a space between the words
-	
-	margin-left: 0.2em;
-	*****/
-
-
-	margin-left: 0.2em;
-	}
-
-
-
 
 .wcParentName
 	{
-	font-size: 1.1em;
 	margin-right: .4em;
+	display: block;
 	}
 
 .wcMarriage
 	{
-	font-size: 1.1em;
+	clear: both;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: .4em;
+	margin-bottom: .3em;
 	padding: 3px;
-	clear: both;
 	}
 			
 .wcSource
@@ -130,7 +107,7 @@ a img {	border-style: none; margin: 0 3px; }
 	min-height: 25px;	
 	}
 	
-.wcHusband, .wcWife, .wcFHusband, .wcMWife
+.wcHusband, .wcWife, .wcFHusband, .wcMWife,
 	{
 	width: 47%;
 	padding: 3px;
@@ -166,28 +143,27 @@ a img {	border-style: none; margin: 0 3px; }
 .wcHFacts, .wcWFacts
 	{
 	min-height: 100px;
-	width: 47%;	
+	width: 47.2%;	
 	margin-bottom: .4em;
-	padding: 3px;
+	border: 3px double;
 	}
 
 .wcFactPicture img
 	{
 	float: right;
- 	border-radius: 2px;
-	border: 4px double;
-	}
-
-.wcFactPicture img
-	{
 	height: 110px;
 	width: auto;
+	margin: 0px;
+	-moz-box-shadow: -1px 1px 7px 1px #9b9b9b;
+	-webkit-box-shadow: -1px 1px 7px 1px #9b9b9b;
+	box-shadow: -1px 1px 7px 1px #9b9b9b;
 	}
 
 .wcFactsRecord
 	{
 	text-align: left;
 	padding: 2px;
+	border-bottom: 1px solid;
 	}
 	
 .wcHFactsWrapper, .wcWFactsWrapper,
@@ -215,10 +191,25 @@ a img {	border-style: none; margin: 0 3px; }
 	padding-left: 5px;
 	}
 	
+.wcSpouses
+	{
+	clear: both;
+	}
+
+.wcSpousesTitle
+	{
+	font-weight: bold;
+	}
+
+.wcSpousesData
+	{
+	font-size: 1.1em;
+	}
+	
 .wcHSpousesWrapper, .wcWSpousesWrapper
 	{
 	width: 47%;
-	padding: 0px 3px 3px 3px;
+	padding: 0px 6px 3px 3px;
 	}
 
 .wcHSpousesWrapper
@@ -235,8 +226,6 @@ a img {	border-style: none; margin: 0 3px; }
 	
 .wcChildrenTitle
 	{
-	margin-top: 3px;
-	padding: 3px;
 	font-size: 1.2em;
 	font-weight: bold;
 	}
@@ -251,11 +240,37 @@ a img {	border-style: none; margin: 0 3px; }
 .wcChild, .wcFChild, .wcMChild,
 .wcChildBold, .wcFChildBold, .wcMChildBold
 	{
-	padding-top: 1px;
-	padding-bottom: 2px;
+	padding-top: 0.6em;	
+	padding-bottom: 0.5em;
+	margin-bottom: 1px;
 	}
 
 .wcChildBold, .wcFChildBold, .wcMChildBold
 	{
 	font-weight: bold;
 	}
+
+.wcChildren
+	{
+	padding: 3px;
+	}
+		
+.wcChildDate, .wcChildStatus
+	{
+	/*****
+	To show dates and status on multiple lines change the
+	display from span to block
+
+	display: block;
+	-----------------
+	To show dates and status on a single line use margin-left to
+	add a space between the words
+	
+	margin-left: 0.2em;
+	*****/
+
+	margin-left: 3px;
+	font-size: 0.9em;
+	}
+
+	

@@ -1,4 +1,13 @@
-/*General Settings*/
+a
+	{
+	text-decoration: none;
+	}
+	
+a:hover
+	{
+	text-decoration: underline;
+	}
+
 .pageBody
 	{
 	margin-left:auto;
@@ -17,6 +26,11 @@
 	text-align: center;
 	}
 
+.footer, .footerCustom
+	{
+	margin: 0.3em;
+	}
+
 .reportBody
 	{
 	position: relative;
@@ -26,11 +40,11 @@
 	margin-right:auto;
 	height: 43.5em;
 
-	border: 1px solid black;
+	border: 3px double;
 	-moz-border-radius: 3px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
 	}
 
 /*Box Settings*/
@@ -49,6 +63,8 @@
     -webkit-border-radius: 3px;
     -khtml-border-radius: 3px;
     border-radius: 3px;
+    
+    border: 1px solid;
 	}
 
 .male
@@ -63,7 +79,7 @@
 
 .date
 	{
-	font-size: 0.83em;
+	font-size: .9em;
 	}
 
 #source .name
@@ -74,10 +90,10 @@
 /*Individual Box Positioning*/
 
 #source
-{
+	{
 	top: 19em;
 	left: 0.25em;
-}
+	}
 
 #p1, #p2
 {
@@ -222,12 +238,7 @@
 	position: absolute;
 	z-index: -3;
 
-	padding: 0;
-	margin: 0;
-
-	background: transparent;
-
-	border: 2px solid gray;
+	border: 2px solid;
 	border-right: none;
 
 	-moz-border-radius: 3px;
@@ -291,26 +302,26 @@
 /*Spouse/Children Drop-Downs*/
 
 .showSC
-	{
+{
 	font-size: 0.857em;
 	width: 16.4em;
 	height: 1.2em;
 	z-index: -2;
-	background-color: white;
-	color: black;
+
+	border: 1px solid;
+    border-top: none;
+
     position: absolute;
 	margin: 0px;
 	text-align: right;
-	padding-top: .3em;
-
-	border: 1px solid #ccc;
-	border-top: none;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
 	
-	-moz-border-radius: 0px 0px 3px 1px;
-    -webkit-border-radius: 0px 0px 3px 1px;
-    -khtml-border-radius: 0px 0px 3px 1px;
-    border-radius: 0px 0px 3px 1px;
-	}
+	-moz-border-radius: 0px 0px 3px 3px;
+    -webkit-border-radius: 0px 0px 3px 3px;
+    -khtml-border-radius: 0px 0px 3px 3px;
+    border-radius: 0px 0px 3px 3px;
+}
 
 .showSC a
 {
@@ -328,7 +339,7 @@
 
 #sourceSC, #sourceShowSC
 {
-	top: 27.5em;
+	top: 27.45em;
 	left: 1em;
 }
 
@@ -344,7 +355,7 @@
 
 #p2SC, #p2ShowSC
 {
-	top: 40.3em;
+	top: 40.35em;
 }
 
 #gp1SC, #gp1ShowSC, #gp2SC, #gp2ShowSC, #gp3SC, #gp3ShowSC, #gp4SC, #gp4ShowSC
@@ -354,7 +365,7 @@
 
 div#gp1SC, div#gp1ShowSC
 {
-	top: 8.2em;
+	top: 8.25em;
 }
 
 #gp2SC, #gp2ShowSC
@@ -364,39 +375,37 @@ div#gp1SC, div#gp1ShowSC
 
 #gp3SC, #gp3ShowSC
 {
-	top: 33.9em;
+	top: 33.85em;
 }
 
 #gp4SC, #gp4ShowSC
 {
-	top: 46.7em;
+	top: 46.75em;
 }
 
 /*Spouse/Children Div/List Settings*/
 
 .scView
 	{
-	padding-bottom: 5px;	
 	font-size: 0.857em;
 	width: 16.4em;
 	height: 10.5em;
 	display: none;
 	z-index: 0;
-	background-color: white;
-	color: black;
 
-	border: 1px solid #ccc;
-	border-top: none;
+	border: 1px solid;
+    border-top: none;
+
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
 
 	-moz-border-radius: 0px 0px 3px 3px;
     -webkit-border-radius: 0px 0px 3px 3px;
     -khtml-border-radius: 0px 0px 3px 3px;
     border-radius: 0px 0px 3px 3px;
-    position: absolute;
 
-	-moz-box-shadow: 1px 1px 3px 0px #c4c4c4;
-	-webkit-box-shadow: 1px 1px 3px 0px #c4c4c4;
-	box-shadow: 1px 1px 3px 0px #c4c4c4;
+    position: absolute;
+	margin: 0px;
 	}
 
 .scView a
@@ -424,6 +433,7 @@ div#gp1SC, div#gp1ShowSC
 	text-decoration: none;
 	display: block;
 	margin-bottom: 1px;
+	padding: 2px;
 	padding-left: 3px;
 	font-weight: bold;
 }
@@ -432,6 +442,7 @@ div#gp1SC, div#gp1ShowSC
 {
 	padding-left: 9px;
 	margin-bottom: 1px;
+	font-weight: normal;
 }
 
 .scList
