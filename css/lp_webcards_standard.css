@@ -1,15 +1,5 @@
 a img {	border-style: none; margin: 0 3px; }
 
-a
-	{
-	text-decoration: none;
-	}
-	
-a:hover
-	{
-	text-decoration: underline;
-	}
-
 .pageBody
 	{
 	margin-right: auto;
@@ -22,13 +12,7 @@ a:hover
 .reportBody
 	{
 	padding: 10px;
-	border: 3px double;
-	margin-bottom: 0.5em;
-	
-	-moz-border-radius: 4px;
-       -webkit-border-radius: 4px;
-       -khtml-border-radius: 4px;
-    border-radius: 4px;
+	border: 1px solid black;
 	}
 	
 .pageTitle
@@ -55,15 +39,16 @@ a:hover
 	{
 	min-height: 2.5em;
 	width: 47%;
-	margin-bottom: 2px;
+	margin-bottom: .4em;
 	padding: 3px;
 	}
 
 .wcHFather, .wcHMother, .wcWFather, .wcWMother,
 .wcHusband, .wcWife, .wcFHusband, .wcMWife,
+.wcHFacts, .wcWFacts,
 .wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold
 	{
-	border: 1px solid;
+	border: 1px solid black;
 	}
 
 .wcHFather, .wcHMother, .wcWFather, .wcWMother,
@@ -76,24 +61,62 @@ a:hover
     border-radius: 3px;
 	}
 
-.wcParentDate, .wcMChild, .wcFChild, .wcChild
+.wcHFather, .wcHMother, .wcWFather, .wcWMother,
+.wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold
+	{
+	margin-top: 3px;
+	}
+
+.wcParentDate,
+.wcChildDate, .wcChildStatus
+	{
+	font-size: 0.8em;
+	font-weight: normal;
+	}
+
+.wcParentDate
 	{
 	display: block;
 	}
 
+
+
+
+.wcChildDate, .wcChildStatus
+	{
+	/*****
+	To show dates and status on multiple lines change the
+	display from span to block
+
+	display: block;
+	-----------------
+	To show dates and status on a single line use margin-left to
+	add a space between the words
+	
+	margin-left: 0.2em;
+	*****/
+
+
+	margin-left: 0.2em;
+	}
+
+
+
+
 .wcParentName
 	{
+	font-size: 1.1em;
 	margin-right: .4em;
-	display: block;
 	}
 
 .wcMarriage
 	{
-	clear: both;
+	font-size: 1.1em;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: .3em;
+	margin-bottom: .4em;
 	padding: 3px;
+	clear: both;
 	}
 			
 .wcSource
@@ -107,7 +130,7 @@ a:hover
 	min-height: 25px;	
 	}
 	
-.wcHusband, .wcWife, .wcFHusband, .wcMWife,
+.wcHusband, .wcWife, .wcFHusband, .wcMWife
 	{
 	width: 47%;
 	padding: 3px;
@@ -143,27 +166,28 @@ a:hover
 .wcHFacts, .wcWFacts
 	{
 	min-height: 100px;
-	width: 47.2%;	
+	width: 47%;	
 	margin-bottom: .4em;
-	border: 3px double;
+	padding: 3px;
 	}
 
 .wcFactPicture img
 	{
 	float: right;
+ 	border-radius: 2px;
+	border: 4px double;
+	}
+
+.wcFactPicture img
+	{
 	height: 110px;
 	width: auto;
-	margin: 0px;
-	-moz-box-shadow: -1px 1px 7px 1px #9b9b9b;
-	-webkit-box-shadow: -1px 1px 7px 1px #9b9b9b;
-	box-shadow: -1px 1px 7px 1px #9b9b9b;
 	}
 
 .wcFactsRecord
 	{
 	text-align: left;
 	padding: 2px;
-	border-bottom: 1px solid;
 	}
 	
 .wcHFactsWrapper, .wcWFactsWrapper,
@@ -191,25 +215,10 @@ a:hover
 	padding-left: 5px;
 	}
 	
-.wcSpouses
-	{
-	clear: both;
-	}
-
-.wcSpousesTitle
-	{
-	font-weight: bold;
-	}
-
-.wcSpousesData
-	{
-	font-size: 1.1em;
-	}
-	
 .wcHSpousesWrapper, .wcWSpousesWrapper
 	{
 	width: 47%;
-	padding: 0px 6px 3px 3px;
+	padding: 0px 3px 3px 3px;
 	}
 
 .wcHSpousesWrapper
@@ -226,6 +235,8 @@ a:hover
 	
 .wcChildrenTitle
 	{
+	margin-top: 3px;
+	padding: 3px;
 	font-size: 1.2em;
 	font-weight: bold;
 	}
@@ -240,37 +251,11 @@ a:hover
 .wcChild, .wcFChild, .wcMChild,
 .wcChildBold, .wcFChildBold, .wcMChildBold
 	{
-	padding-top: 0.6em;	
-	padding-bottom: 0.5em;
-	margin-bottom: 1px;
+	padding-top: 1px;
+	padding-bottom: 2px;
 	}
 
 .wcChildBold, .wcFChildBold, .wcMChildBold
 	{
 	font-weight: bold;
 	}
-
-.wcChildren
-	{
-	padding: 3px;
-	}
-		
-.wcChildDate, .wcChildStatus
-	{
-	/*****
-	To show dates and status on multiple lines change the
-	display from span to block
-
-	display: block;
-	-----------------
-	To show dates and status on a single line use margin-left to
-	add a space between the words
-	
-	margin-left: 0.2em;
-	*****/
-
-	margin-left: 3px;
-	font-size: 0.9em;
-	}
-
-	

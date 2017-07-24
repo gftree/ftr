@@ -1,9 +1,0 @@
-a img {	border-style: none; margin: 0 3px; }a	{	text-decoration: none;	}	a:hover	{	text-decoration: underline;	}.pageBody	{	margin-right: auto;	margin-bottom: 50px;	margin-left: auto;	width: 760px;	}.pageTitle	{	word-spacing: -1px;	}.reportBody	{	margin-top: 7px;	margin-bottom: 8px;	text-align: center;	padding-top: 5px;	padding-bottom: 5px;		border: 3px double;	-moz-border-radius: 4px;    -webkit-border-radius: 4px;    -khtml-border-radius: 4px;    border-radius: 4px;	}.wmTOC	{	display: inline;	float: none;	text-align: left;	width: 100%;	}.wmTOCEntry	{	margin-bottom: 1px;	width: 100%;	text-align: center;	}.wmItems	{	}
-
-.wmItemRecord
-	{
-	border-bottom: 3px double;
-	border-color: #b5b5b5;
-	}
-.wmPicture	{	display: block;	}	.wmPicture img	{	-moz-box-shadow: 0px 0px 10px 1px #9b9b9b;	-webkit-box-shadow: 0px 0px 10px 1px #9b9b9b;	box-shadow: 0px 0px 10px 1px #9b9b9b;	}.wmItemRecord	{	margin: 10px;	padding: 10px;	opacity: 1;	}.wmItemMedia	{	margin-top: 10px;	}	.wmItemTitle	{	margin-right: 0px;	margin-left: 0px;
-	margin-top: 6px;	text-align: center;	opacity: 1;	}.wmTop	{	text-align: left;	}	.wmRelated	{	margin: 10px;	padding: 10px;	text-align: center;	}.wmRelatedTitle	{	display: block;	font-weight: bold;	}.wmRelatedPages	{	display: block;	}.footer	{	margin-left: 6%;	margin-right: 6%;	margin-bottom: 50px;	padding: 0;	text-align: center;	}
