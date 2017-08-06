@@ -1,0 +1,156 @@
+a { color: #014e71; }
+a:visited { color: #014e71; }
+a:hover { color: #b5b944; }
+.smallBullet { color: #4D3300; }
+.citation a	{ color: #900; }
+
+body
+	{ 
+	background-color: #f1f1f1;
+	}
+
+.reportBody
+	{
+	background-color: #f1f1f1;
+
+	-moz-box-shadow: 0px 0px 2px 1px white;
+	-webkit-box-shadow: 0px 0px 2px 1px white;
+	box-shadow: 0px 0px 2px 1px white;
+	}
+
+.reportBody, .footer, .footerCustom,
+.psFRecord, .psMRecord, .psRecord, .psNotesData, .showSC,
+.pageTitle, .pageBody, .fhName, .surRecord, .rrNav, .fhNotes,
+.wmItemRecord, .wmRelated, .wmPicture img
+	{
+	color: #525252;
+	border-color: #a3a3a3;
+	}
+
+.psName
+	{
+	background-image: url(titlefill.jpg);
+	}
+
+.tocLinks, .tocIntro, .tocContact, .tocSur,
+.tocLinksTitle, .tocIntroTitle, .tocContactTitle,
+.wcHusband, .wcWife, .wcFHusband, .wcMWife,
+.wcHFather, .wcHMother, .wcWFather, .wcWMother,
+.wcHFacts, .wcWFacts,
+.wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold,
+.idxBar, .idxSur, .srcEntry
+	{
+	color: #525252;
+	border-color: #aeadad;
+	}
+
+.psFooter
+	{
+	border-color: #b5b5b5;
+	}
+
+
+.pageTitle
+	{
+	color: #525252;
+	}
+
+.tocTitle, .tocAuthor
+	{
+	color: #525252;
+	}
+
+.tocLinksTitle, .tocIntroTitle, .tocContactTitle
+	{
+	color: #525252;
+	}
+
+
+.tocTitle, .pageTitle, .tocLinksTitle, .tocIntroTitle, .tocContactTitle
+	{
+	text-shadow: #c5c5c5 2px 2px 5px;
+	}
+
+
+	
+.footerWrapper
+	{
+	color: #525252;
+	}
+
+.idxBar
+	{
+	background-color: #e7e7e7;
+	}
+
+.wcHusband, .wcMWife,
+.wcHFather, .wcWFather, .wcMChild, .wcMChildBold
+	{
+	border-color: #00aaf1;
+	background-color: #f8fcfd;
+	}
+
+.wcWife, .wcFHusband,
+.wcHMother, .wcWMother, .wcFChild, .wcFChildBold
+	{
+	border-color: #de6a55;
+	background-color: #fdf8f8;
+	}
+
+.wcHFacts, .wcWFacts
+	{
+	color: #525252;
+	}
+
+.wcChild, .wcChildBold
+	{
+	}
+
+.wcHSpouses, .wcWSpouses, .psFooterRecord, .wcMarriage
+	{
+	}
+
+.wcMarriageTitle, .drNumber, .drSourceName, .drSpouseName,
+.drBoxBold .drNumber, .drBoxBold .drSourceName
+	{
+	}
+
+.wcFactsRecord, .wcFactTitle
+	{
+	border-color: #d0d0d0;
+	}
+.psSpousesTitle, .psNotesTitle, .wcChildrenTitle, .psChildren
+	{ 
+	color: #888;
+	}
+
+.rrChildren
+	{
+	background-color: #EEE;
+	}
+
+/* pedigree chart colors */
+.box
+	{
+	border-color: #888;
+ 	background-position: bottom;
+	}
+
+.connect
+	{
+	border-color: gray;
+	}
+	
+.showSC
+	{
+	color: black;
+	background-color: white;
+	border-color: #888;
+	}
+	
+.scView
+	{
+	color: black;
+	background-color: white;
+	border-color: #888;
+	}
